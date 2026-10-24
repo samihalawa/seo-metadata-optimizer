@@ -16,7 +16,7 @@ Do not bias the audit toward one template or one site archetype, and do not limi
 - Do not print cookies, OAuth refresh tokens, personal API keys, access tokens, or full connection strings. Mention env names and proof of existence only.
 - Use the user's existing global env (`~/.env`, shell env) before asking for anything.
 - Keep fixes small and sweep sibling instances with `rg` before calling a class closed.
-- This skill optimizes metadata and visual assets only. For GSC/GA4/Ads/PostHog/DB traffic diagnosis, hand off to `seo-audit`.
+- This skill optimizes metadata and visual assets only. For GSC/GA4/Ads/PostHog/DB traffic diagnosis, hand off to `analytics-DB-posthog-etc-audit-skill`.
 
 ## 1. Flexible Metadata Evaluation
 
